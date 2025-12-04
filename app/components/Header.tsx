@@ -7,7 +7,7 @@ export default function Header() {
         <span className="font-bold text-xl tracking-tight">Portofolio</span>
       </div>
 
-      <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
+      {/* <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
         <Link href="#" className="hover:text-black transition-colors">
           Personal
         </Link>
@@ -20,7 +20,7 @@ export default function Header() {
         <Link href="#" className="hover:text-black transition-colors">
           About Us
         </Link>
-      </nav>
+      </nav> */}
     </header>
   );
 }

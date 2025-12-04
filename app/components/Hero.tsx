@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="pt-24 pb-20 px-6 max-w-7xl mx-auto w-full min-h-[85vh] flex justify-between">
+    <section className="pt-24 pb-32 px-6 max-w-7xl mx-auto w-full min-h-[100vh] flex justify-between">
       {/* Main Content */}
       <div className="relative mt-12">
         <h1 className="text-[clamp(3.5rem,11vw,10rem)] font-medium leading-[0.85] tracking-tighter text-black animate-fade-in-up delay-100">
