@@ -3,7 +3,18 @@
 import { useEffect, useRef } from "react";
 
 export default function Skills() {
-  const skills = ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS"];
+  const skills = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Tailwind CSS",
+    "Zustand",
+    "Tanstack Query",
+    "Prisma",
+  ];
   const duplicatedSkills = [...skills, ...skills];
   const scrollerRef = useRef<HTMLDivElement>(null);
   const animationRef = useRef<number | null>(null);
