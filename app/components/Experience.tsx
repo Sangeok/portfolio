@@ -1,6 +1,11 @@
 export default function Experience() {
   const experiences = [
     {
+      company: "주식회사 캠터",
+      role: "프론트엔드 개발자",
+      year: "2026.06 — 현재",
+    },
+    {
       company: "주식회사 메타비즈디자인",
       role: "프론트엔드 개발자",
       year: "2024.09 — 2025.10",
